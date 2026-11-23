@@ -1,0 +1,9 @@
+.git/
+.vercel/
+.DS_Store
+.env*
+docs/
+src/
+README.md
+preview.png
+设计说明.md

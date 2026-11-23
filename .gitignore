@@ -1,0 +1,5 @@
+.DS_Store
+.vercel/
+.env*
+preview.png
+设计说明.md

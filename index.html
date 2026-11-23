@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141210">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <meta name="description" content="CityUHK EF5560 课件、练习卷和课堂转写的本地复习台。">
+  <title>EF5560 · 期末复习台</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="slide-questions.js"></script>
+  <script defer src="site-locales.js"></script>
+  <script defer src="slide-locales.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="assets/surface.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content" data-copy="跳到复习内容">跳到复习内容</a>
+  <header class="site-header">
+    <div class="shell topbar">
+      <a class="brand" href="#home" aria-label="EF5560 总览" data-copy-aria="EF5560 总览">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <rect width="40" height="40" fill="#141210"/>
+          <circle cx="25" cy="15" r="9" fill="#2f56c4"/>
+          <rect x="21" y="27" width="3.4" height="9" fill="#efe8da"/>
+          <rect x="26.6" y="23" width="3.4" height="13" fill="#efe8da"/>
+          <rect x="32.2" y="18" width="3.4" height="18" fill="#efe8da"/>
+          <polygon class="brand-wedge" points="3,37 33,6 36,11" fill="#c49a3c"/>
+          <rect x="4" y="4" width="9" height="2.4" fill="#3a63d6"/>
+        </svg>
+        <span class="brand-word"><span>EF<b>/</b>5560</span><small>FINTECH · AI LAB</small></span>
+      </a>
+      <nav class="navigation" aria-label="主导航" data-copy-aria="主导航">
+        <span class="nav-indicator" aria-hidden="true"></span>
+        <a href="#home" data-nav="home" data-copy="总览">总览</a>
+        <a href="#lessons" data-nav="lessons" data-copy="按讲复习">按讲复习</a>
+        <a href="#practice/A" data-nav="practice" data-copy="练习卷">练习卷</a>
+        <a href="#library" data-nav="library" data-copy="资料库">资料库</a>
+      </nav>
+      <div class="header-tools">
+        <button type="button" class="search-trigger" id="search-trigger" aria-label="搜索课次、题目和资料" data-copy-aria="搜索课次、题目和资料">
+          <span class="search-icon" aria-hidden="true"></span>
+          <span class="search-label" data-copy="搜索">搜索</span><kbd aria-hidden="true">/</kbd>
+        </button>
+        <div class="language-switch" role="group" aria-label="选择网站语言" data-copy-aria="选择网站语言">
+          <button type="button" data-locale="zh" lang="zh-CN" aria-pressed="true">中文</button>
+          <button type="button" data-locale="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+    <span class="route-bar" aria-hidden="true"></span>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>LEC01 ML IN FINANCE<i>▲</i></span><span>OOS R² = 1 − SSE/SST<i>▲</i></span><span>RIDGE λ‖β‖²<i>▼</i></span><span>LASSO λ|β|<i>▲</i></span><span>TREE · FOREST · BOOST<i>▲</i></span><span>NEURAL NET ŷ = f(Wx+b)<i>▼</i></span><span>BLOCKCHAIN HASH 0x5560<i>▲</i></span><span>BTC / BCH FORK<i>▲</i></span><span>NFT OWNERSHIP<i>▼</i></span><span>STABLECOIN 1 : 1<i>▲</i></span><span>HK$100 PAYMENT RAIL<i>▲</i></span><span>CROWDFUNDING<i>▼</i></span><span>ROBO-ADVISOR<i>▲</i></span><span>LEC01 ML IN FINANCE<i>▲</i></span><span>OOS R² = 1 − SSE/SST<i>▲</i></span><span>RIDGE λ‖β‖²<i>▼</i></span><span>LASSO λ|β|<i>▲</i></span><span>TREE · FOREST · BOOST<i>▲</i></span><span>NEURAL NET ŷ = f(Wx+b)<i>▼</i></span><span>BLOCKCHAIN HASH 0x5560<i>▲</i></span><span>BTC / BCH FORK<i>▲</i></span><span>NFT OWNERSHIP<i>▼</i></span><span>STABLECOIN 1 : 1<i>▲</i></span><span>HK$100 PAYMENT RAIL<i>▲</i></span><span>CROWDFUNDING<i>▼</i></span><span>ROBO-ADVISOR<i>▲</i></span></div></div>
+  </header>
+
+  <main class="shell" id="content" tabindex="-1">
+    <div id="home">
+      <section class="hero" aria-labelledby="home-title">
+        <div class="hero-copy">
+          <div class="hero-geo" aria-hidden="true"><span class="geo-circle"></span><span class="geo-bar"></span><span class="geo-wedge"></span></div>
+          <p class="course-meta">CITYUHK <span aria-hidden="true">/</span> 2026/27 · SEMESTER A</p>
+          <h1 id="home-title"><span data-copy="期末复习台">期末复习台</span><span aria-hidden="true">.</span></h1>
+          <p class="course-name" lang="en">FinTech and AI in Finance</p>
+          <p class="hero-desc" data-copy="先做一道题找出薄弱点，再回到课件和课堂讲解。">先做一道题找出薄弱点，再回到课件和课堂讲解。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#question/oos"><span class="button-label" data-copy="开始诊断">开始诊断</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#lessons"><span data-copy="浏览 11 讲">浏览 11 讲</span><span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="study-status">
+            <span id="progress-label">已复习 0 / 11</span>
+            <progress id="lesson-progress" aria-labelledby="progress-label" value="0" max="11"></progress>
+            <a id="review-link" href="#review">待复习 0 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <figure class="fit-figure" aria-labelledby="fit-title">
+          <div class="fit-heading">
+            <div>
+              <p data-copy="预测响应面示意">预测响应面示意</p>
+              <h2 id="fit-title" data-copy="同一组输入，两种拟合">同一组输入，两种拟合</h2>
+            </div>
+            <div class="fit-switch" role="group" aria-label="选择拟合方式" data-copy-aria="选择拟合方式">
+              <button type="button" data-fit="linear" data-copy="线性" aria-pressed="false">线性</button>
+              <button type="button" data-fit="nonlinear" data-copy="非线性" aria-pressed="true">非线性</button>
+            </div>
+          </div>
+          <div class="fit-stage" aria-hidden="true">
+            <canvas id="fit-canvas"></canvas>
+            <span class="fit-axis fit-axis-y">ŷ <span data-copy="预测值">预测值</span></span>
+            <span class="fit-axis fit-axis-z">x₂ <span data-copy="波动率">波动率</span></span>
+            <span class="fit-axis fit-axis-x">x₁ <span data-copy="动量">动量</span></span>
+          </div>
+          <figcaption class="fit-caption">
+            <span id="fit-description" aria-live="polite">动量的影响随波动率而变。</span>
+            <a href="#lesson/4"><span data-copy="查看 Lec 04">查看 Lec 04</span> <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="overview-section" id="lesson-overview" aria-labelledby="overview-title">
+        <div class="section-heading">
+          <h2 id="overview-title" data-copy="按讲复习">按讲复习</h2>
+          <a class="text-link" href="#library"><span data-copy="全部课程资料">全部课程资料</span> <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="lesson-tracks" id="lesson-tracks"></div>
+        <p class="scope-note"><span data-copy="大纲另列 Lec 12，当前资料包未收录该讲课件。">大纲另列 Lec 12，当前资料包未收录该讲课件。</span><a href="sources/syllabus_EF5560_2026.pdf#page=3" target="_blank" rel="noopener"><span data-copy="查看大纲 p. 3">查看大纲 p. 3</span> ↗</a></p>
+      </section>
+
+      <section class="overview-section papers-overview" aria-labelledby="papers-title">
+        <div class="section-heading"><h2 id="papers-title" data-copy="练习">练习</h2></div>
+        <div class="paper-links">
+          <a href="#practice/A"><span class="paper-letter" aria-hidden="true">A</span><span><span data-copy="练习卷 A">练习卷 A</span><small data-copy="22 题 · 120 分钟">22 题 · 120 分钟</small></span><span aria-hidden="true">↗</span></a>
+          <a href="#practice/B"><span class="paper-letter" aria-hidden="true">B</span><span><span data-copy="练习卷 B">练习卷 B</span><small data-copy="22 题 · 120 分钟">22 题 · 120 分钟</small></span><span aria-hidden="true">↗</span></a>
+          <a href="#practice/slides"><span class="paper-letter" aria-hidden="true" data-copy="课">课</span><span><span data-copy="课件题">课件题</span><small data-copy="选择题、简答题、随堂检查">选择题、简答题、随堂检查</small></span><span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </div>
+    <div id="page" hidden></div>
+  </main>
+
+  <footer class="shell site-footer">
+    <span>City University of Hong Kong · EF5560</span>
+    <a href="#library"><span data-copy="课程资料与出处">课程资料与出处</span> ↗</a>
+  </footer>
+
+  <dialog id="search-dialog" aria-labelledby="search-title">
+    <div class="search-head">
+      <h2 id="search-title" data-copy="搜索">搜索</h2>
+      <button type="button" class="icon-button" id="search-close" aria-label="关闭搜索" data-copy-aria="关闭搜索">×</button>
+    </div>
+    <label class="sr-only" for="search-input" data-copy="关键词">关键词</label>
+    <input type="search" id="search-input" placeholder="例如 OOS、稳定币、支付系统" data-copy-placeholder="例如 OOS、稳定币、支付系统" autocomplete="off">
+    <div id="search-results" class="search-results"></div>
+  </dialog>
+</body>
+</html>
