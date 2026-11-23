@@ -14,7 +14,6 @@ A bilingual study site for CityUHK EF5560, with lecture notes, interactive quest
 
 ## 界面预览
 
-### 首页与预测响应面
 
 ![期末复习台首页和线性、非线性预测响应面](docs/screenshots/overview.png)
 
