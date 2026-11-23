@@ -4,10 +4,13 @@
 ![Chinese and English](https://img.shields.io/badge/Language-ZH%20%2F%20EN-c4973c?style=flat-square)
 ![Static site](https://img.shields.io/badge/Site-Static-161413?style=flat-square)
 ![Three.js](https://img.shields.io/badge/3D-Three.js-203882?style=flat-square&logo=threedotjs)
+[![Vercel](https://img.shields.io/badge/Live-Vercel-161413?style=flat-square&logo=vercel)](https://ef5560-review.vercel.app/)
 
 给 City University of Hong Kong **EF5560 · FinTech and AI in Finance** 做的双语复习站。可以从一道诊断题开始，回到对应的讲义页，再从待复习清单重做。覆盖 2026/27 Semester A 已整理的 11 讲。
 
 A bilingual study site for CityUHK EF5560, with lecture notes, interactive questions, and links to the original course materials.
+
+**[打开复习网站](https://ef5560-review.vercel.app/)**
 
 ## 功能
 
